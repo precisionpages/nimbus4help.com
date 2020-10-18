@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html >
+
+   <head >
+
+      <title >Confirm form submission</title>
+
+      <meta content="text/html; charset=utf-8" http-equiv='Content-Type'/>
+
+      <style type='text/css'>
+
+body {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-size : 10pt;
+
+}
+
+
+
+.table_container table{
+
+	border-width:0px;
+
+}
+
+
+
+.table_container table td{
+
+    font-size : 10pt;
+
+	text-align: left;
+
+	border-bottom:1px solid #DEDEDE;
+
+	padding:5px;
+
+}
+
+
+
+.table_container table td.FieldName{
+
+	font-weight:bold;
+
+	vertical-align: top;
+
+}
+
+
+
+.table_container table td.FieldValue {
+
+	font-family : Arial, Helvetica, sans-serif;
+
+	font-size : 10pt;
+
+}
+
+
+
+.table_container table td.ButtonBox{
+
+	border-bottom:0px ;
+
+	text-align: center;
+
+	white-space:nowrap;
+
+}
+
+
+
+div.table_container
+
+{
+
+	margin-top:20px;
+
+	margin-bottom:10px;
+
+}
+
+
+
+form.sfm_confirm
+
+{
+
+    display:inline;
+
+}
+
+      </style>
+
+      <meta name='GENERATOR' content='MSHTML 11.00.9600.17631'/>
+
+   </head>
+
+   <body style='BACKGROUND-COLOR: transparent'>
+
+      <h2 >Please Confirm...</h2>
+
+Press the 'Confirmed' button to proceed with the 
+
+submission.       <br />
+
+If you want to make changes, press the 'Edit' button.       <br />
+
+      <div class='table_container'>
+
+         <table cellSpacing='0' cellPadding='5'>
+
+            <tbody >
+
+               <tr >
+
+                  <td class='FieldName'>Name </td>
+
+                  <td class='FieldValue'>%Name% </td>
+
+               </tr>
+
+               <tr >
+
+                  <td class='FieldName'>Email </td>
+
+                  <td class='FieldValue'>%Email% </td>
+
+               </tr>
+
+               <tr >
+
+                  <td class='FieldName'>Message </td>
+
+                  <td class='FieldValue'>%Message% </td>
+
+               </tr>
+
+               <tr >
+
+                  <td class='ButtonBox' colSpan='2' align='center'>
+
+%_sfm_print_button_% 
+
+      %_sfm_edit_button_% %_sfm_confirm_button_%
+
+                  </td>
+
+               </tr>
+
+            </tbody>
+
+         </table>
+
+
+
+<!--{ExtraCodePlace}-->
+
+      </div>
+
+   </body>
+
+</html>
+

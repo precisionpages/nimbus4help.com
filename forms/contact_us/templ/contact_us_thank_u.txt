@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html >
+
+   <head >
+
+      <title >Thank you</title>
+
+      <meta content="text/html; charset=utf-8" http-equiv='Content-Type'/>
+
+      <style >
+
+h2 
+
+{
+
+	font-family:Arial, sans-serif; 
+
+}
+
+
+
+body
+
+{
+
+	font-family:Arial, sans-serif; 
+
+	line-height:1.5em;
+
+	background-color:transparent
+
+}
+
+      </style>
+
+      <meta name='GENERATOR' content='MSHTML 11.00.9600.17631'/>
+
+   </head>
+
+   <body >
+
+      <h2 >Thank You!</h2>
+
+The form is successfully submitted.       <br />
+
+Thank you very much 
+
+for your input.
+
+   </body>
+
+</html>
+
